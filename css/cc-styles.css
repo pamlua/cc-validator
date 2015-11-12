@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+#form {
+	width: 250px;
+	background-color: #f7f7f7;
+	margin: 0 auto;
+	margin-top: 150px;
+	padding: 15px 30px 30px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+     font-family: "Raleway", sans-serif;
+     margin-bottom: 20px;
+}
+#form div {
+	display: inline-block;
+	width: 50%;
+	margin-right: -6px;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+#form div input {
+	width: 60%;
+}
+#form h3 {
+	font-family: "Raleway", sans-serif;
+	margin: 7px 0 10px;
+	font-size: 1em;
+	font-weight: 400;
+}
+#form h4 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	font-size: 0.8em;
+	margin: 15px 0 5px;
+}
+input {
+	font-family: "Arimo", sans-serif;
+	border: 1px solid #ccc;
+	font-size: 1em;
+    height: 30px;
+    padding: 0 8px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+#ccNumber, #ccName {
+	width: 100%;
+}
+#ccLogo {
+	font-size: 0.8em;
+	text-align: center;
+}
+#ccNumber {
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.blank {
+	background-image: url('../img/blank.png');
+}
+.visa {
+	background-image: url('../img/visa.png');
+}
+.discover {
+	background-image: url('../img/discover.png');
+}
+.mastercard {
+	background-image: url('../img/mastercard.png');
+}
+.amex {
+	background-image: url('../img/amex.png');
+}

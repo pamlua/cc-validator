@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/cc-styles.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<div id="form">
+		<h3>Payment Details</h3>
+		<form>
+			<h4>Name on card</h4>
+			<input id="ccName" type="text" placeholder="John Doe"></input>
+			<h4>Card number</h4>
+			<input id="ccNumber" class="blank" type="number" placeholder="1234 5678 9012 3456"></input>
+			<div>
+				<h4>Expiry date</h4>
+				<input id="ccExp" type="number" placeholder="mm yy"></input>
+			</div>
+			<div>
+				<h4>CVV</h4>
+				<input id="ccCVV" type="number" placeholder="123"></input>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/cc-validator.js"></script>
+</body>
+</html>
